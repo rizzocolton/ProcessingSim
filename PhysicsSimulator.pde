@@ -42,6 +42,7 @@ void draw(){
     c1.display();
     c2.display();
   }else{
+    sp.display();
     for(int i=0;i<pList.length;i++){
       //System.out.println("Object#"+i);
       //System.out.println("Object id: "+pList[i].id);
@@ -64,7 +65,6 @@ void draw(){
       }
       
       pList[i].display();
-      sp.display();
       //System.out.println();
     }
   }
